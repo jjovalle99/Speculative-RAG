@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "speculative-rag"
+version = "0.1.0"
+description = "Demo of Speculative RAG"
+authors = ["Juan Ovalle <jj.ovalle@uniandes.edu.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.42.0"
+qdrant-client = {extras = ["fastembed"], version = "^1.11.0"}
+datasets = "^2.21.0"
+loguru = "^0.7.2"
+tiktoken = "^0.7.0"
+scikit-learn = "^1.5.1"
+pydantic = "^2.8.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
