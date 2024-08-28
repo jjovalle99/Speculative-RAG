@@ -10,6 +10,8 @@ In this project, I have implemented the Speculative RAG framework using the Open
 
 Here are the notebooks included in this project:
 
-- `speculative_rag.ipynb`: This notebook contains the implementation of Speculative RAG using OpenAI.
-- `langgraph_speculative_rag.ipynb`: This notebook utilizes the previous implementation and constructs a LangGraph agent capable of utilizing Speculative RAG as a tool.
+| Notebook Name                  | Description                                                                                           |
+|-------------------------------|-------------------------------------------------------------------------------------------------------|
+| `speculative_rag.ipynb`         | This notebook contains the implementation of Speculative RAG using OpenAI Python SDK.                            |
+| `langgraph_speculative_rag.ipynb` | This notebook utilizes the previous implementation and constructs a LangGraph agent capable of utilizing Speculative RAG as a tool. |
 
